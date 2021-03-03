@@ -6,8 +6,8 @@ Michael Ng: Team Leader
 Emily Ervin: Document Manager
 Preston Ware: Lead Developer
 Aaron Henderson: Lead Designer
-## The Quality Manager is shared equally across the team. 
-## Our team communicates using Discord. We also have set up a GitHub repository for later use.
+The Quality Manager is shared equally across the team. 
+Our team communicates using Discord. We also have set up a GitHub repository for later use.
 
 # Client Information
 Client: Lindsay Roberts
@@ -49,53 +49,53 @@ To make sure our customers are happy with the finished design.
 
 # Interviews and Descriptions
 ## Interview 1 
-### (Friday, February 12, 2021 – 11:30AM to 12:00PM): 
+(Friday, February 12, 2021 – 11:30AM to 12:00PM): 
 Introductions with the client, Lindsay, and some initial questions about the project, webpage, and business were asked. We were introduced to the business and what it does.
 
 ## Interview 2 
-### (Wednesday, February 17, 2021 – 10:00PM – 10:10PM): 
+(Wednesday, February 17, 2021 – 10:00PM – 10:10PM): 
 Follow-up questions with Lindsay were asked. 
 Typical Customer Attributes (Group A)
 Group A consists of younger people aged 10 – 24 years old. Their shared interests include memes and videogames. 
 
 ## Age Ranges: 
-### For this group, 10 – 24 years old.
-### Dominant Gender: 
-#### There is no dominant gender in this age group.
-### Level of Education: 
-#### Depending on age, may range from Middle School to some/full college.
-### Occupation: 
-#### Most people in this group may be attending school/college and/or working part-time jobs.
-### Hobbies and Interests: 
-#### Primarily, Memes, Videogames, or anything that is trending.
-### Web/Computer Experience Level: 
-#### Mediocre, depending on how often they (are allowed) to use a computer or internet device.
-### Type of equipment used: 
-#### A computer or tablet may be the most common choice in this age group.
-### Group Relationship with Twisted Vinyl: 
-#### May be related with Group B. Likely the offspring of a friend or a close friend of Lindsay.
-### How this group knows about Twisted Vinyl: 
-#### From parents or friends.
+For this group, 10 – 24 years old.
+Dominant Gender: 
+There is no dominant gender in this age group.
+Level of Education: 
+Depending on age, may range from Middle School to some/full college.
+Occupation: 
+Most people in this group may be attending school/college and/or working part-time jobs.
+Hobbies and Interests: 
+Primarily, Memes, Videogames, or anything that is trending.
+Web/Computer Experience Level: 
+Mediocre, depending on how often they (are allowed) to use a computer or internet device.
+Type of equipment used: 
+A computer or tablet may be the most common choice in this age group.
+Group Relationship with Twisted Vinyl: 
+May be related with Group B. Likely the offspring of a friend or a close friend of Lindsay.
+How this group knows about Twisted Vinyl: 
+From parents or friends.
 
 
 # Typical Customer Attributes (Group B)
-## Group B consists of adults aged 25 – 40 years old. Their shared interest is parenting.
+Group B consists of adults aged 25 – 40 years old. Their shared interest is parenting.
 
 ## Age Ranges: 
-### For this group, 25 – 40 years old.
-## Dominant Gender: 
-### Neither gender is dominant but may lean closer towards Females (Many of her customers from this age group are her friends).
-## Level of Education: 
-### Most clients have full high school education, with some having taken college.
-## Occupation:
-###Varies across this group (There is no dominant job or job area).
-## Hobbies and Interests: 
-### Parenting and being with Family.
-## Web/Computer Experience Level: 
-### Little to a lot, depending on the individual.
-## Type of equipment used: 
-### Mainly smartphone but may also use a tablet or computer.
-## Group Relationship with Twisted Vinyl: 
-### Typically, close friends or acquaintances with Lindsay.
-## How this group knows about Twisted Vinyl: 
-### Referral or being friends with Lindsay.
+For this group, 25 – 40 years old.
+Dominant Gender: 
+Neither gender is dominant but may lean closer towards Females (Many of her customers from this age group are her friends).
+Level of Education: 
+Most clients have full high school education, with some having taken college.
+Occupation:
+Varies across this group (There is no dominant job or job area).
+Hobbies and Interests: 
+Parenting and being with Family.
+Web/Computer Experience Level: 
+Little to a lot, depending on the individual.
+Type of equipment used: 
+Mainly smartphone but may also use a tablet or computer.
+Group Relationship with Twisted Vinyl: 
+Typically, close friends or acquaintances with Lindsay.
+How this group knows about Twisted Vinyl: 
+Referral or being friends with Lindsay.
