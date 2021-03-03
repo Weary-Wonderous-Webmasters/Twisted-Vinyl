@@ -2,10 +2,15 @@
 ## Semester Project Phase 1 – Group B
 
 # Group Members
-Michael Ng: Team Leader
-Emily Ervin: Document Manager
-Preston Ware: Lead Developer
-Aaron Henderson: Lead Designer
+### Team Leader:
+> Michael Ng
+### Document Manager:
+> Emily Ervin
+### Lead Developer
+> Preston Ware
+### Lead Designer
+> Aaron Henderson
+
 The Quality Manager is shared equally across the team. 
 Our team communicates using Discord. We also have set up a GitHub repository for later use.
 
