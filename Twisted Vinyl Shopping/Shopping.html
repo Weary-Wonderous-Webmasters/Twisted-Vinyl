@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Michael Ng">
+    <meta name="description" content="CSCI 1210 Semester Project">
+    <meta name="keywords" content="CSCI, 1210, Semester Project">
+    
+    <title>Shopping</title>
+    <link rel="icon" href="images/twistedVinylLogo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <!--
+        Author:     Michael Ng
+        Date:       4/14/2021
+        Team:       Wonderous, Weary Webmasters (Group B)        
+        Purpose:    Semester Project
+    -->
+    
+</head>
+<body>
+    
+    <header> 
+        <img src="images/twistedVinylLogo.png" alt="Logo" class="logo">
+        <h1>Twisted Vinyl</h1>
+        <hr class="header">
+        <h2>   
+            <nav> <!-- Navigation Bar with tentative page titles -->
+                <a href="#">Home</a> |
+                <a href="#">Gallery</a> |
+                <a href="#">Contact Us</a>
+            </nav>
+        </h2>
+        
+        
+        <!-- The Search Bar. Allow the consumer to search for an item. -->
+        <form method="get">
+            <input type="text" name="search" placeholder="What are you looking for?" size="20">
+            <input type="submit" name="submit">
+        </form>
+        
+        
+        <!-- The image of the Shopping Cart and the amount of items in the Cart. -->
+        <img src="images/Shopping%20Cart.png" class="shoppingCart">
+        <img src="images/Num%20Circle.png" class="numCircle"> 
+        <p class="cartNum">0</p>
+    </header>
+    <br>
+    
+    <!-- Another Nav menu that allows the user to "filter" search results -->
+    <nav class="selectMenu">
+        <a href="#"><box class="selected">All Products</box></a>
+        <a href="#"><box class="unselected">T-Shirts</box></a>
+        <a href="#"><box class="unselected">Vinyls</box></a>
+        <a href="#"><box class="unselected">Supplementation</box></a>
+        <a href="#"><box class="unselected">Decorations</box></a>
+    </nav>
+    
+    <script src='/js/w3c.js'></script> <!-- HTML/CSS validation script -->
+</body>
+</html>
