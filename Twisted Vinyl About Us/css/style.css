@@ -1,0 +1,123 @@
+/*
+    style.css
+            Author:         Aaron Henderson
+            Date:           4/13/2021
+            Last Revised:   4/13/2021
+            Purpose:        Styling for Twisted Vinyl website
+*/
+
+body {
+    background: #3194AF;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin: 0;
+}
+
+header {
+    background: #46A6C2;
+    padding-bottom: 0px;
+}
+
+header p {
+    text-align: right;
+    display: inline;
+    font-size: 74pt;
+    float: right;
+    margin-right: 200px; 
+    margin-top: 50px; 
+}
+
+hr.header {
+    background: #46A6C2;
+    margin: 0;
+    border-bottom: 5px solid black;
+}
+
+nav {
+    background-color: #46A6C2;
+    display: block;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    z-index: 5;
+}
+
+nav a.current {
+    color: black;
+    font-weight: 500
+}
+
+nav a {
+    display: block;
+    float: left;
+    margin-left: 150px;
+    font-family: 'Cookie', cursive;
+    font-size: 24pt;
+    color: #F9F9F9;
+    width: 150px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+h1 {
+    margin: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h1.cookie {
+    font-family: 'Cookie', cursive;
+    font-weight: 500;
+}
+
+p {
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+p.cookie {
+    font-family: 'Cookie', cursive;
+}
+
+div.info {
+    background-color: #46A6C2;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 40px; 
+}
+
+hr.footer {
+    background: #46A6C2;
+    margin: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-bottom: 3px solid black;
+}
+
+footer {
+    background-color: #46A6C2;
+    padding: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+footer p {
+    background-color: #46A6C2;
+    padding: 0px;
+}
+
+
+
+
+
+
+
