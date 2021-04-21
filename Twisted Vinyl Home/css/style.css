@@ -1,0 +1,211 @@
+/*
+    style.css
+            Author:         Preston Ware (Ft. Michael Ng)
+            Date:           4/21/2021
+            Last Revised:   4/21/2021
+            Purpose:        Styling for Twisted Vinyl website
+*/
+
+/* This sets the CSS for the overall page and defines parts like font and background. */
+
+body {
+  background: #c5e6ef; /** Sets the background to be a light blue good contrast with #0000 **/
+  font-family: Helvetica, sans-serif; /** Sets the normal body text to be Helvetica **/
+  font-size: 1.1em; /** Sets the body text size **/
+  margin: 0; /** This makes the header flush with the edge of the screen **/
+}
+/** Creates the CSS for the Title and the banner at the top of the page **/
+header p {
+  font-size: 50px; /** Sets the font size to be 50 pixels **/
+  float: left; /** Pushes images in a line to be merged with text but on the left side **/
+  margin-top: 10px; /** Pushes the text in the header down by 10 pixels **/
+}
+/** Sets the Header in the nav to have the font 'Cookie' **/
+p.cookie {
+  font-family: "Cookie", cursive; /** Sets the font to the Google font 'Cookie' **/
+}
+/** sets the space around to be 0 pixels on the component <header> **/
+hr.header {
+  margin: 0; /** Sets the space around to be 0 pixels **/
+}
+/** Creates the navigation bar at the top **/
+nav {
+  background-color: #ffffff; /** Sets the backgound of the header in all **/
+  display: block; /* Sets the display to be block */
+  top: 0; /** Another way for it to be flush with the edge of the screen **/
+  width: 100%; /** Causes the width of the header to be flush with the edge of the screen **/
+  height: 65px; /**Sets the allowed height of the header **/
+  z-index: 5; /** This sets the stack level of the box **/
+  text-align: right; /** Causes the text to be aligned to the right **/
+  box-shadow: 0px 10px 5px grey; /** adds a shadow to the header **/
+}
+/** Establishes the styling for the current page **/
+nav a.current {
+  color: #00536d; /** Sets the text color to #00536d if you are currently on that page **/
+  font-weight: 800; /** Sets the boldness of the current page to be '800' **/
+  text-decoration: underline !important; /** The !important causes all other parts to be overwritten meaning if this is the current page it will be underlined **/
+}
+/** Creates the styling for the links not being used or accessed by the user **/
+nav a {
+  margin: 10px; /** Sets the space around to be 10 pixels **/
+  font-family: "Cookie", cursive; /** Sets the font to the Google font 'Cookie' **/
+  font-size: 45px; /** Sets the font size to be 45 pixels **/
+  color: #000000; /** Sets the text color to #000000 **/
+  width: 391px; /** Sets the width of the allowed area to 391 pixels **/
+  position: relative; /** causes the position to be relative to the surrounding parts of the page **/
+  top: 10px; /** Pushes the nav links down from the top by 10 pixels **/
+  text-align: right; /** Causes the text alignment to be pushed to the right **/
+  right: 40px; /** Pushes the nav links to the right by 40 pixels **/
+  text-decoration: none; /** Overwrites any forcible push to make the text underlined **/
+}
+/** If the user hovers over a navigation link, do this **/
+nav a:hover {
+  color: #008ab4; /** Sets the text color to #008ab4 if you hover over that nav location **/
+}
+/** Sets the styling of the banner, right below the nav bar **/
+.banner {
+  margin-left: 60px; /** Pushes the banner to the right by 60 pixels**/
+  margin-top: 75px; /** Pushes the banner down by 75 pixels **/
+  border: 10px solid #216476; /** Creates a border with the color of #216476 on the banner **/
+}
+/* Sets the style of all items in the component <h1> **/
+h1 {
+  margin: 50px; /** Sets the space around to be 50 pixels **/
+  padding-left: 40px; /** Sets the space around to be 10 pixels inside the div on the left**/
+  padding-right: 40px; /** Sets the space around to be 10 pixels inside the div on the right **/
+  font-weight: 100; /** Sets the boldness of the header to be 100**/
+}
+/** Sets the style of the "Welcome!" portion, I had to make this separate because of its off center postition **/
+h1.cookie {
+  font-family: "Cookie", cursive; /** Sets the font to the Google font 'Cookie' **/
+  font-size: 50px; /** Sets the font size to be 50 pixels **/
+  padding-top: 20px; /** Pushes the header down by 20 pixels **/
+}
+/** Sets the style of the "About us" Header **/
+h1.cookie1 {
+  font-family: "Cookie", cursive; /** Sets the font to the Google font 'Cookie' **/
+  position: absolute; /** Causes the postition to be relative to the nearest position ancestor **/
+  left: 550px; /** Pushed the header right by 550 Pixels **/
+  top: 750px; /** Pushes the header down from the top by 750 pixels with an absolute position **/
+  font-size: 50px; /** Sets the font size to be 50 pixels **/
+}
+/** Sets the style for the "Products" header **/
+h1.cookie2 {
+  font-family: "Cookie", cursive; /** Sets the font to the Google font 'Cookie' **/
+  position: relative; /** causes the position to be relative to the surrounding parts of the page **/
+  text-align: center; /** Causes the text alignment to be pushed to the center **/
+  top: 10px; /** Pushes the header down from the top by 10 pixels with a relative position **/
+  font-size: 50px; /** Sets the font size to be 50 pixels **/
+}
+/** Creates a divider between the different sections of the page **/
+.divider {
+  margin-top: 100px; /** Sets the space around to be 100 pixels outside the div on the top**/
+  width: 1000px; /** Sets the allowed with of the divider to be 1000 pixels **/
+  border: 1px solid #000000; /** Creates a border 1 pixel wide, solid, and black, around a divider **/
+}
+/** Sets the style of the body under the "Welcome!" **/
+p {
+  margin: 10px; /** Sets the space around to be 10 pixels **/
+  margin-left: 200px; /** Sets the space around to be 200 pixels outside the div on the left**/
+  font-size: 30px; /** Sets the font size to be 30 pixels **/
+}
+/** Sets the style of the body below "About us!" **/
+.p1 {
+  margin: 10px; /** Sets the space around to be 10 pixels **/
+  margin-left: 200px; /** Sets the space around to be 200 pixels outside the div on the left**/
+  font-size: 30px; /** Sets the font size to be 30 pixels **/
+  margin-top: 300px; /** Sets the space around to be 300 pixels outside the div on the top**/
+  margin-bottom: 100px; /** Sets the space around to be 100 pixels outside the div on the bottom**/
+}
+/** 'AU' Stands for "About us" ~ CSS For About Us image **/
+.AU1 {
+  float: left; /** Pushes images in a line to be merged with text but on the left side **/
+  border-radius: 32px; /** Causes the image to have a rounded border of 32 degrees **/
+  margin: 40px; /** Sets the space around to be 40 pixels **/
+  margin-top: 250px; /** Sets the space around to be 250 pixels outside the div on the top**/
+}
+/** CSS Styling for the footer **/
+hr.footer {
+  margin: 0px; /** Sets the space around to be 0 pixels **/
+  margin-left: 60px; /** Sets the space around to be 60 pixels outside the div on the left**/
+  margin-right: 60px; /** Sets the space around to be 60 pixels outside the div on the right**/
+  border-bottom: 3px solid black; /** Creates an underline like, on the bottom 3 pixels wide, black **/
+}
+/** CSS Styling for the footer **/
+footer {
+  padding: 10px; /** Sets the space around to be 10 pixels inside the div **/
+  margin-left: 60px; /** Sets the space around to be 60 pixels outside the div on the left**/
+  margin-right: 60px; /** Sets the space around to be 60 pixels outside the div on the right**/
+}
+/** CSS Formatting for the footer **/
+footer p {
+  padding: 0px; /** Much like the header this makes the edges flush with the screen **/
+}
+
+/** --------------------------------- CSS Taken from Michael Ng's Shop Page --------------------------------- **/
+
+/**CSS Formatting for left side products **/
+.products {
+  position: relative; /** The positioning of this element affects other elements on the same line or below it. **/
+  display: block; /** Display the element as a Block. **/
+  width: 1072px; /** The Width of the element. (1072 pixels) **/
+  top: -21px; /** The distance of the element from the top border of another element. **/
+  margin-left: auto; /** Used in tandem with margin-right: auto; to center the Header at the top of the website. (If using a computer, resize the window horizontally.) **/
+  margin-right: auto; /** Sets distance from the element's right side to the website border. **/
+}
+
+/** CSS Formatting for Image Elements (product Class) **/
+img.product {
+  position: relative; /** The positioning of this element affects other elements on the same line or below it. **/
+  margin: 10px; /** Puts a 10 pixel distance between this element and other surrounding elements. **/
+  margin-bottom: 5px; /** Puts a 5 pixel distance between this element and elements below it. Overrides the margin defined above. **/
+  border: 1px solid #000000; /** Creates a 1 pixel solid black border around the element. **/
+  border-radius: 32px; /** Causes the image to have a rounded border of 32 degrees **/
+}
+
+/** CSS Formatting for Paragraph Elements (description Class) **/
+p.description {
+  position: absolute; /** The position of the element will not affect other relative elements. **/
+  width: 250px; /** The Width of the element. (250 pixels) **/
+  height: 180px; /** The Height of the element. (180 pixels) **/
+  padding: 10px; /** Puts a 10 pixel distance between the content inside the element and the border **/
+  left: 230px; /** The distance of the element from another element's left border. **/
+  margin: -210px 0px 0px 0px; /** Adds a -210 pixel top margin, 0 pixel bottom margin, 0 pixel right margin, and 0 pixel left margin. **/
+  font-family: "Roboto", serif; /** Sets the font to 'Roboto'. Reverts to serif when Cookie cannot be used. **/
+  font-weight: 500; /** Sets the 'boldness' of the font to 500 pixels. **/
+}
+
+/** CSS Formatting for Image Elements (productRight Class) **/
+img.productRight {
+  position: absolute; /** The position of the element will not affect other relative elements. **/
+  margin-left: 350px; /** Sets the distance of the element from another element's left border to 350 pixels. **/
+  margin-top: 10px; /** Sets the vertical margin to 10 pixels. **/
+  margin: 10px 0px 0px 350px; /** Adds a 10 pixel top margin, 0 pixel bottom margin, 0 pixel right margin, and 350 pixel left margin. **/
+  border: 1px solid #000000; /** Creates a 2 pixel solid black border around the element. **/
+  border-radius: 32px; /** Causes the image to have a rounded border of 32 degrees **/
+}
+
+/** CSS Formatting for Paragraph Elements (descriptionRight Class) **/
+p.descriptionRight {
+  position: absolute; /** The position of the element will not affect other relative elements. **/
+  width: 250px; /** The Width of the element. (250 pixels) **/
+  height: 180px; /** The Height of the element. (180 pixels) **/
+  padding: 10px; /** Puts a 10 pixel distance between the content inside the element and the border. **/
+  margin: -210px 0px 0px 0px; /** Adds a -210 pixel top margin, 0 pixel bottom margin, 0 pixel right margin, and 0 pixel left margin. **/
+  left: 792px; /** The distance of the element from another element's left border. **/
+  font-family: "Roboto", serif; /** Sets the font to 'Roboto'. Reverts to serif when Cookie cannot be used. **/
+  font-weight: 500; /** Sets the 'boldness' of the font to 500. **/
+}
+/** CSS Formatting for adding an item to cart **/
+img.addItem {
+  position: absolute; /** The position of the element will not affect other relative elements. **/
+  left: 180px; /** The distance of the element from another element's left border. **/
+  margin-top: 180px; /** Sets the vertical margin to 180 pixels. **/
+}
+
+/** CSS Formatting for Image Elements (addItemRight Class) **/
+img.addItemRight {
+  position: absolute; /** The position of the element will not affect other relative elements. **/
+  left: 743px; /** The distance of the element from another element's left border. **/
+  margin-top: 180px; /** Sets the vertical margin to 180 pixels. **/
+}
