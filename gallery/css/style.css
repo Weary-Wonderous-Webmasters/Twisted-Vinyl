@@ -1,0 +1,106 @@
+/*
+    Author: Emily Ervin
+    Date: 4/22/21
+    Assignment: CSCI 1210 Semester Project
+    Purpose: CSS for Gallery Page
+*/
+
+/* THIS PORTION OF CSS CODES COMES FROM MICHAEL NG AND PRESTON WARE FOR SITE STANDARDIZATION */
+
+/** CSS Formatting for the Body **/
+body {
+    width: 100%;                    /** Set the width of the entire webpage to 100% of the screen's resolution. **/
+    margin:0px;                     /** Sets the distance between inside content and the website border (in this case, 0 pixels.) **/
+    background-color: #13809F;      /** Set the background color to hexadecimal code #13809F (A dark teal.) **/
+}
+
+/** CSS Formatting for Image Elements (Logo Class) **/
+img.logo {
+    position: absolute;         /** The position of the image will not affect other relative elements. **/
+    width: 110px;               /** The width of the image. (In this case, 110 pixels) **/
+    height: 110px;              /** The height of the image. (In this case, 110 pixels) **/
+    left: 0px;                  /** The distance of the element from another element's left border. **/
+    top: 0px;                   /** The distance of the element from the top border of an element. **/
+}
+
+/** Creates the navigation bar at the top **/
+nav {
+  background-color: #ffffff; /** Sets the backgound of the header in all **/
+  display: block; /* Sets the display to be block */
+  top: 0; /** Another way for it to be flush with the edge of the screen **/
+  width: 100%; /** Causes the width of the header to be flush with the edge of the screen **/
+  height: 65px; /**Sets the allowed height of the header **/
+  z-index: 5; /** This sets the stack level of the box **/
+  text-align: right; /** Causes the text to be aligned to the right **/
+  box-shadow: 0px 10px 5px grey; /** adds a shadow to the header **/
+}
+
+/** Establishes the styling for the current page **/
+nav a.current {
+  color: #00536d; /** Sets the text color to #00536d if you are currently on that page **/
+  font-weight: 800; /** Sets the boldness of the current page to be '800' **/
+  text-decoration: underline !important; /** The !important causes all other parts to be overwritten meaning if this is the current page it will be underlined **/
+}
+
+/** Creates the styling for the links not being used or accessed by the user **/
+nav a {
+  margin: 10px; /** Sets the space around to be 10 pixels **/
+  font-family: "Cookie", cursive; /** Sets the font to the Google font 'Cookie' **/
+  font-size: 45px; /** Sets the font size to be 45 pixels **/
+  color: #000000; /** Sets the text color to #000000 **/
+  width: 391px; /** Sets the width of the allowed area to 391 pixels **/
+  position: relative; /** causes the position to be relative to the surrounding parts of the page **/
+  top: 10px; /** Pushes the nav links down from the top by 10 pixels **/
+  text-align: right; /** Causes the text alignment to be pushed to the right **/
+  right: 40px; /** Pushes the nav links to the right by 40 pixels **/
+  text-decoration: none; /** Overwrites any forcible push to make the text underlined **/
+}
+/* BORROWED CODE ENDS HERE */
+
+/* Formats rows and columns of pictures for the gallery */
+
+h1 {
+    font-family: "Cookie", cursive; /** Sets the font to the Google font 'Cookie' **/
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+    background-color: black;
+    color: rgb(207,234,241);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/* formats header image and text to be side by side */
+.header img {
+    float: left;
+    width: 1000px;
+    height: 390px;
+}
+
+.header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    font-size: 80px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+
+/* formatting for image rows */
+.row {
+  display: flex;
+}
+
+.column5 {
+  flex: 20%;
+  padding: 5px;
+}
+
+/* formatting for paragraph element */
+p {
+    font-family: sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: large;
+    color: white;
+}
