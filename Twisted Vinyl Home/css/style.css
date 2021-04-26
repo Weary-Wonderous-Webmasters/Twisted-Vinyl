@@ -71,8 +71,8 @@ nav a:hover {
 /* Sets the style of all items in the component <h1> **/
 h1 {
   margin: 50px; /** Sets the space around to be 50 pixels **/
-  padding-left: 40px; /** Sets the space around to be 10 pixels inside the div on the left**/
-  padding-right: 40px; /** Sets the space around to be 10 pixels inside the div on the right **/
+  /* padding-left: 40px; * Sets the space around to be 10 pixels inside the div on the left* */
+  /* padding-right: 40px; * Sets the space around to be 10 pixels inside the div on the right * */
   font-weight: 100; /** Sets the boldness of the header to be 100**/
 }
 /** Sets the style of the "Welcome!" portion, I had to make this separate because of its off center postition **/
@@ -84,18 +84,11 @@ h1.cookie {
 /** Sets the style of the "About us" Header **/
 h1.cookie1 {
   font-family: "Cookie", cursive; /** Sets the font to the Google font 'Cookie' **/
-  position: absolute; /** Causes the postition to be relative to the nearest position ancestor **/
-  left: 550px; /** Pushed the header right by 550 Pixels **/
-  top: 750px; /** Pushes the header down from the top by 750 pixels with an absolute position **/
-  font-size: 50px; /** Sets the font size to be 50 pixels **/
-}
-/** Sets the style for the "Products" header **/
-h1.cookie2 {
-  font-family: "Cookie", cursive; /** Sets the font to the Google font 'Cookie' **/
-  position: relative; /** causes the position to be relative to the surrounding parts of the page **/
-  text-align: center; /** Causes the text alignment to be pushed to the center **/
-  top: 10px; /** Pushes the header down from the top by 10 pixels with a relative position **/
-  font-size: 50px; /** Sets the font size to be 50 pixels **/
+  position: relative; /** Causes the postition to be relative to the nearest position ancestor **/
+  /* left: 550px; * Pushed the header right by 550 Pixels * */
+  /* top: 750px; * Pushes the header down from the top by 750 pixels with an absolute position * */
+  /* font-size: 50px; * Sets the font size to be 50 pixels * */
+  text-align: center;
 }
 /** Creates a divider between the different sections of the page **/
 .divider {
@@ -105,24 +98,25 @@ h1.cookie2 {
 }
 /** Sets the style of the body under the "Welcome!" **/
 p {
-  margin: 10px; /** Sets the space around to be 10 pixels **/
+  margin: 40px; /** Sets the space around to be 10 pixels **/
   margin-left: 200px; /** Sets the space around to be 200 pixels outside the div on the left**/
   font-size: 30px; /** Sets the font size to be 30 pixels **/
 }
 /** Sets the style of the body below "About us!" **/
 .p1 {
-  margin: 10px; /** Sets the space around to be 10 pixels **/
-  margin-left: 200px; /** Sets the space around to be 200 pixels outside the div on the left**/
+  margin: 40px; /** Sets the space around to be 10 pixels **/
+  /* margin-left: 200px; * Sets the space around to be 200 pixels outside the div on the left* */
   font-size: 30px; /** Sets the font size to be 30 pixels **/
-  margin-top: 300px; /** Sets the space around to be 300 pixels outside the div on the top**/
-  margin-bottom: 100px; /** Sets the space around to be 100 pixels outside the div on the bottom**/
+  /* margin-top: 300px; * Sets the space around to be 300 pixels outside the div on the top* */
+  /* margin-bottom: 40px; Sets the space around to be 100 pixels outside the div on the bottom */
+  justify-self: center;
 }
 /** 'AU' Stands for "About us" ~ CSS For About Us image **/
 .AU1 {
-  float: left; /** Pushes images in a line to be merged with text but on the left side **/
+  float: left; /* Pushes images in a line to be merged with text but on the left side */
   border-radius: 32px; /** Causes the image to have a rounded border of 32 degrees **/
-  margin: 40px; /** Sets the space around to be 40 pixels **/
-  margin-top: 250px; /** Sets the space around to be 250 pixels outside the div on the top**/
+  margin-inline: 40px; /** Sets the space around to be 40 pixels **/
+  position: relative;
 }
 /** CSS Styling for the footer **/
 hr.footer {
