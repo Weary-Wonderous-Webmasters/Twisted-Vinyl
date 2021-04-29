@@ -25,20 +25,24 @@ p.cookie {
   font-family: "Cookie", cursive; /** Sets the font to the Google font 'Cookie' **/
 }
 /** sets the space around to be 0 pixels on the component <header> **/
-hr.header {
+header {
   margin: 0; /** Sets the space around to be 0 pixels **/
+  min-width: 100% !important;
 }
 /** Creates the navigation bar at the top **/
 nav {
   background-color: #ffffff; /** Sets the backgound of the header in all **/
+  min-width: 100% !important;
   display: block; /* Sets the display to be block */
   top: 0; /** Another way for it to be flush with the edge of the screen **/
-  width: 100%; /** Causes the width of the header to be flush with the edge of the screen **/
   height: 65px; /**Sets the allowed height of the header **/
   z-index: 5; /** This sets the stack level of the box **/
   text-align: right; /** Causes the text to be aligned to the right **/
   box-shadow: 0px 10px 5px grey; /** adds a shadow to the header **/
+  flex: auto;
+  padding: 10px;
 }
+
 /** Establishes the styling for the current page **/
 nav a.current {
   color: #00536d; /** Sets the text color to #00536d if you are currently on that page **/
@@ -51,12 +55,14 @@ nav a {
   font-family: "Cookie", cursive; /** Sets the font to the Google font 'Cookie' **/
   font-size: 45px; /** Sets the font size to be 45 pixels **/
   color: #000000; /** Sets the text color to #000000 **/
-  width: 391px; /** Sets the width of the allowed area to 391 pixels **/
-  position: relative; /** causes the position to be relative to the surrounding parts of the page **/
   top: 10px; /** Pushes the nav links down from the top by 10 pixels **/
-  text-align: right; /** Causes the text alignment to be pushed to the right **/
-  right: 40px; /** Pushes the nav links to the right by 40 pixels **/
   text-decoration: none; /** Overwrites any forcible push to make the text underlined **/
+}
+
+@media only screen and (max-width: 700px) {
+  nav a {
+    font-size: 30px;
+  }
 }
 /** If the user hovers over a navigation link, do this **/
 nav a:hover {
@@ -64,7 +70,7 @@ nav a:hover {
 }
 /** Sets the styling of the banner, right below the nav bar **/
 .banner {
-  margin-left: 60px; /** Pushes the banner to the right by 60 pixels**/
+  margin-left: 180px; /** Pushes the banner to the middle of the screen (Right 180 Pixels) **/
   margin-top: 75px; /** Pushes the banner down by 75 pixels **/
   border: 10px solid #216476; /** Creates a border with the color of #216476 on the banner **/
 }
@@ -74,6 +80,7 @@ h1 {
   /* padding-left: 40px; * Sets the space around to be 10 pixels inside the div on the left* */
   /* padding-right: 40px; * Sets the space around to be 10 pixels inside the div on the right * */
   font-weight: 100; /** Sets the boldness of the header to be 100**/
+  font-size: 50px; /**Sets the header font size to 50 pixels**/
 }
 /** Sets the style of the "Welcome!" portion, I had to make this separate because of its off center postition **/
 h1.cookie {
@@ -88,7 +95,7 @@ h1.cookie1 {
   /* left: 550px; * Pushed the header right by 550 Pixels * */
   /* top: 750px; * Pushes the header down from the top by 750 pixels with an absolute position * */
   /* font-size: 50px; * Sets the font size to be 50 pixels * */
-  text-align: center;
+  text-align: center; /** Puts the text in the center of the screen **/
 }
 /** Creates a divider between the different sections of the page **/
 .divider {
@@ -99,7 +106,6 @@ h1.cookie1 {
 /** Sets the style of the body under the "Welcome!" **/
 p {
   margin: 40px; /** Sets the space around to be 10 pixels **/
-  margin-left: 200px; /** Sets the space around to be 200 pixels outside the div on the left**/
   font-size: 30px; /** Sets the font size to be 30 pixels **/
 }
 /** Sets the style of the body below "About us!" **/
@@ -121,15 +127,13 @@ p {
 /** CSS Styling for the footer **/
 hr.footer {
   margin: 0px; /** Sets the space around to be 0 pixels **/
-  margin-left: 60px; /** Sets the space around to be 60 pixels outside the div on the left**/
-  margin-right: 60px; /** Sets the space around to be 60 pixels outside the div on the right**/
+  text-align: center; /** Puts the text in the center **/
   border-bottom: 3px solid black; /** Creates an underline like, on the bottom 3 pixels wide, black **/
 }
 /** CSS Styling for the footer **/
 footer {
   padding: 10px; /** Sets the space around to be 10 pixels inside the div **/
-  margin-left: 60px; /** Sets the space around to be 60 pixels outside the div on the left**/
-  margin-right: 60px; /** Sets the space around to be 60 pixels outside the div on the right**/
+  text-align: center; /** Puts the text in the center **/
 }
 /** CSS Formatting for the footer **/
 footer p {
