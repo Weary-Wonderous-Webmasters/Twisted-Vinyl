@@ -5,57 +5,28 @@
     Purpose: CSS for Gallery Page
 */
 
-/* THIS PORTION OF CSS CODES COMES FROM MICHAEL NG AND PRESTON WARE FOR SITE STANDARDIZATION */
+/* body format */
 
-/** CSS Formatting for the Body **/
 body {
-    width: 100%;                    /** Set the width of the entire webpage to 100% of the screen's resolution. **/
-    margin:0px;                     /** Sets the distance between inside content and the website border (in this case, 0 pixels.) **/
-    background-color: #13809F;      /** Set the background color to hexadecimal code #13809F (A dark teal.) **/
+    background-color: #13809F;
+    margin: 10px;
 }
 
-/** CSS Formatting for Image Elements (Logo Class) **/
-img.logo {
-    position: absolute;         /** The position of the image will not affect other relative elements. **/
-    width: 110px;               /** The width of the image. (In this case, 110 pixels) **/
-    height: 110px;              /** The height of the image. (In this case, 110 pixels) **/
-    left: 0px;                  /** The distance of the element from another element's left border. **/
-    top: 0px;                   /** The distance of the element from the top border of an element. **/
-}
-
-/** Creates the navigation bar at the top **/
+/* formats the navigation bar */
 nav {
-  background-color: #ffffff; /** Sets the backgound of the header in all **/
-  display: block; /* Sets the display to be block */
-  top: 0; /** Another way for it to be flush with the edge of the screen **/
-  width: 100%; /** Causes the width of the header to be flush with the edge of the screen **/
-  height: 65px; /**Sets the allowed height of the header **/
-  z-index: 5; /** This sets the stack level of the box **/
-  text-align: right; /** Causes the text to be aligned to the right **/
-  box-shadow: 0px 10px 5px grey; /** adds a shadow to the header **/
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    display: block;
 }
 
-/** Establishes the styling for the current page **/
-nav a.current {
-  color: #00536d; /** Sets the text color to #00536d if you are currently on that page **/
-  font-weight: 800; /** Sets the boldness of the current page to be '800' **/
-  text-decoration: underline !important; /** The !important causes all other parts to be overwritten meaning if this is the current page it will be underlined **/
-}
-
-/** Creates the styling for the links not being used or accessed by the user **/
 nav a {
-  margin: 10px; /** Sets the space around to be 10 pixels **/
-  font-family: "Cookie", cursive; /** Sets the font to the Google font 'Cookie' **/
-  font-size: 45px; /** Sets the font size to be 45 pixels **/
-  color: #000000; /** Sets the text color to #000000 **/
-  width: 391px; /** Sets the width of the allowed area to 391 pixels **/
-  position: relative; /** causes the position to be relative to the surrounding parts of the page **/
-  top: 10px; /** Pushes the nav links down from the top by 10 pixels **/
-  text-align: right; /** Causes the text alignment to be pushed to the right **/
-  right: 40px; /** Pushes the nav links to the right by 40 pixels **/
-  text-decoration: none; /** Overwrites any forcible push to make the text underlined **/
+    color: white;
+    font-family: "Cookie", cursive;
+    font-size: 40px;
 }
-/* BORROWED CODE ENDS HERE */
+
 
 /* Formats rows and columns of pictures for the gallery */
 
@@ -89,6 +60,7 @@ h1 {
 /* formatting for image rows */
 .row {
   display: flex;
+    background-color: #5FB8D2;
 }
 
 .column5 {
@@ -104,3 +76,14 @@ p {
     font-size: large;
     color: white;
 }
+
+footer {
+    display: block;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+    
